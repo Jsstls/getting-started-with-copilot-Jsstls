@@ -183,6 +183,23 @@ footer {
   box-shadow: 0 1px 0 rgba(0,0,0,0.02);
 }
 
+/* small unregister/delete button inside each participant chip */
+.participants-list .participant .unregister-btn {
+  background: transparent;
+  border: none;
+  color: #b71c1c;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.participants-list .participant .unregister-btn:hover {
+  background: rgba(183,28,28,0.08);
+}
+
 /* when there are no participants */
 .participants-list .no-participants {
   color: #757575;
